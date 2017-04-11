@@ -1,3 +1,130 @@
-/****************************
- ====== Votre super CSS =====
- ****************************/
+*{
+border: 1px solid black;
+color: white;
+font-family: Verdana, sans-serif;
+}
+
+html{
+background-color: #232323;
+height: 100%;
+overflow: hidden;
+}
+
+body{
+height: 100%;
+
+}
+
+header{
+height: 23%;
+margin-top: 2.5%;
+display: flex;
+background-color: #1b6e76;
+text-align: center;
+}
+
+img {
+ margin-top: 2%;
+ margin-left: 2%;
+ margin-bottom: 2%;
+ margin-right: 2%;
+ width: 15%;
+
+}
+
+#Ban_title {
+flex: 6;
+}
+
+h1{
+font-weight: lighter;
+font-size: 70px;
+}
+
+h2{
+margin-top: -1.8%;
+font-weight: 400;
+font-size: 30px;
+}
+
+nav{
+flex: 3;
+text-align: center;
+padding-top: 0.8%;
+font-weight: bolder;
+}
+
+a{
+text-decoration: none;
+}
+
+.Main{
+background-color: white;
+padding-top: 2.5%;
+padding-bottom: 2.5%;
+height: auto;
+}
+
+article{
+text-align: center;
+height: 200px;
+}
+
+span{
+margin: 0.2%;
+display: flex;
+}
+
+#first {
+display: flex;
+}
+
+#img1 {
+flex: 1;
+background-image: url("img/image1.jpg");
+background-size: cover;
+filter: brightness(60%);
+margin-left: 20%;
+}
+
+#img2 {
+flex: 1;
+background-image: url("img/image2.jpg");
+background-size: cover;
+filter: brightness(60%);
+margin-right: 20%;
+}
+
+#Second {
+display: flex;
+}
+
+#img3 {
+flex: 1;
+background-image: url("img/image3.png");
+background-size: cover;
+filter: brightness(60%);
+background-color: rgba(0, 0, 0, 0.4);
+margin-left: 20%;
+}
+
+#img4 {
+flex: 1;
+background-image: url("img/image4.jpg");
+background-size: cover;
+filter: brightness(60%);
+margin-right: 20%;
+}
+
+p{
+text-align: center;
+margin: auto;
+}
+
+footer{
+text-align: center;
+padding-top: 2.5%;
+padding-bottom: 0.9%;
+height: 1%;
+
+}
